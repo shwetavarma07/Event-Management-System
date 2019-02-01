@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Booking </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+
+a:link {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: Black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: Gray;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+</style>
+
+</head>
+<body>
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h1 class="w3-padding-64"><b>SR<br>CREATIONS</b></h1>
+  </div>
+  
+</nav>
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+  
+
+  <!-- Header -->
+
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+<p>Click  <a href="sr1.html"><u> here </u></a> to go back to Homepage.</p>
+
+    <h1 class="w3-jumbo"><b>Customer </b></h1>
+    <h1 class="w3-xxxlarge w3-text-red"><b>Registration</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+ <form method="POST" action="register.php">
+<div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border" type="text" name="name" required>
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="text" name="email" required>
+      </div>
+      <div class="w3-section">
+        <label>Contact No</label>
+        <input class="w3-input w3-border" type="text" name="contactno" required>
+      </div>
+<div class="w3-section">
+        <label>Username</label>
+	<input class="w3-input w3-border" type="text" name="username" required>
+      </div>
+<div class="w3-section">
+        <label>Password</label>
+        <input class="w3-input w3-border" type="password" name="password" required>
+      </div>
+      <button type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" name="book">  REGISTER  </a> </button>
+<button type="reset" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" name="reset">  RESET  </a> </button>    
+</form>  
+  </div>
+
+<!-- End page content -->
+</div>
+
+</body>
+</html>

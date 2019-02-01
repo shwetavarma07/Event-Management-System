@@ -1,0 +1,63 @@
+admin login-->
+username-> "adminsr"
+password-> "sr123"
+
+-----------------------------------------------
+
+for booking->
+1)open myphpadmin
+2)create database "srcreations"
+3)create a table "book"
+4)add 6 fields
+id  ----- int----auto increment----primary key--- length(15)
+name------varchar (30)
+email-----varchar (40)
+contactno------int (10)
+mydropdown-----varchar (20)
+date-----date (8)
+  
+-----------------------------------------------
+for contact us:->
+1) open phpmyadmin
+2) in the database "srcreations"
+3) create a table "contact"
+4) add 4 fields
+id-----int-----auto increment-----primary key----length(20)
+name----varchar (30)
+email------varchar (40)
+message------varchar(500)
+
+-----------------------------------------------
+for customer registeration n login->
+1)open phpmyadmin
+2) In the database "srcreations"
+3) create a table "customer"
+4) add 6 fields
+id-----int-----auto increment----primary key---length(20)
+name----varchar(30)
+email----varchar(40)
+contactno-----int(10)
+username-----varchar(20)
+password-----varchar(50)
+
+-----------------------------------------------------------
+for feedback->
+1) create table "feedback" on srcreations database
+2) add 3 fields
+id-----int----auto increment-----primary key-----length(20)
+name---------varchar(30)
+feedback------varchar(500)
+
+note:-
+
+numbers inside the brackets indicate size/length.
+
+
+
+
+-----------------------------------------------
+1)first open localhost in chrome
+2)then open project folder which is located in www directory of wamp
+3)open "sr1.html" which is our mainpage
+
+
